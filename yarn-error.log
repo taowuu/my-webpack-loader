@@ -1,0 +1,47 @@
+Arguments: 
+  D:\environment\node16\node.exe C:\Users\tao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  D:\vm\bin\;D:\anaconda;D:\anaconda\Library\mingw-w64\bin;D:\anaconda\Library\usr\bin;D:\anaconda\Library\bin;D:\anaconda\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\environment\python3.4.4;D:\environment\python3.4.4\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\environment\mingw64\bin;D:\xshell6\;D:\environment\Java\jdk-17.0.2\bin;D:\environment\Java\jdk-17.0.2\bin\bin;D:\environment\Java\jdk-17.0.2\bin\jre\bin;D:\environment\node16\;C:\Program Files (x86)\Bitvise SSH Client;D:\Git\cmd;D:\environment\python3.6\Scripts\;D:\environment\python3.6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\environment\python3.4.4;D:\environment\python3.4.4\Scripts;D:\environment\node14.16.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\tao\AppData\Local\Microsoft\WindowsApps;D:\AppServ\Apache24\bin;D:\AppServ\php5;D:\AppServ\MySQL\bin;C;D:\Microsoft VS Code\bin;C:\Users\tao\AppData\Roaming\npm;C:\Users\tao\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\tao\Desktop\webpack-loader\package.json: Unexpected token } in JSON at position 337
+      at JSON.parse (<anonymous>)
+      at C:\Users\tao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\tao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\tao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "webpack-loader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "webpack":"^4.30.0",
+      "webpack-cli":"^3.3.0",
+      "webpack-dev-server":"^3.7.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
