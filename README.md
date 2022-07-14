@@ -5,4 +5,4 @@ yarn
 // 运行
 npm run dev
 ```
-![image](./loader.png)
+![image](./loader.PNG)
